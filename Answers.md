@@ -34,5 +34,5 @@ It is similar to a variable that can be updated.
 
 5.  Describe props.
 
-ANSWER 4: Props, which is short for properties, is a react components argument/parameter.
+ANSWER 5: Props, which is short for properties, is a react components argument/parameter.
 Props, unlike state, are fixed throughout the lifetime of the component.

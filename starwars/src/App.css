@@ -27,4 +27,8 @@ ol {
   background: white;
 }
 
+ol:active {
+  background: transparent;
+}
+
 /* write your parent styles in here for your App.js */

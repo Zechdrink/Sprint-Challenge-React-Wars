@@ -18,3 +18,12 @@ li {
       border: 5px solid black;
       box-shadow: 0 0 750px black inset;
   }
+
+  .hair-style {
+      text-decoration: underline;
+      color: rgb(36, 34, 25);
+  }
+
+  span:hover {
+      color: red;
+  }

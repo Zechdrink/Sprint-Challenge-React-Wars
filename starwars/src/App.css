@@ -24,6 +24,7 @@ h1:hover {
 ol {
   padding: 0;
   margin: 0;
+  background: white;
 }
 
 /* write your parent styles in here for your App.js */

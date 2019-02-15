@@ -1,7 +1,9 @@
 import React from 'react';
 
+// import './StarWars.css'
+
 const Character = props => {
-    return <p className = "character-class"><li>{props.character.name}</li></p>
+    return <li>{props.character.name}</li>
 }
 
 export default Character;

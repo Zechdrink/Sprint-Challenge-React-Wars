@@ -20,17 +20,37 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 In this challenge, create a web page that presents a styled list of Star Wars characters. Being able to render out data to a web page is a large part of what JavaScript developers do, this challenge assesses your ability to achieve such a task.
 
-## Self-Study/Essay Questions
+## Self-Study/Essay Questions 
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+ANSWER 1: React is a JavaScript framework that was made to develop large web applications that can change data without having to reload pages. 
+Per what I have learned in class, this is accomplished by breaking every section of a page down into a component, if it can be.
+The Primary purpose of react according to my web research is to be "fast, scalable and simple." 
+
 - [ ] What does it mean to _think_ in react?
+
+ANSWER 2: Thinking in React, is a thought-approach to building web applications. The concept in short, is to view everything as a separate re-usable component, if it can be.
+Per reactjs.org this thought process can be broken down into the following steps:
+The Pre-Step: Start with a Mock.
+Step 1: Break The UI Into A Component Hierarchy.
+Step 2: Build A Static Version in React.
+Step 3: Identify The Minimal (but complete) Representation Of UI State.
+Step 4: Identify Where Your State Should Live.
+Step 5: Add Inverse Data Flow
 
 - [ ] Describe state.
 
+ANSWER 3: State is an object that stores dynamic data that allows components to change and be interactive.
+It is similar to a variable that can be updated.
+
 - [ ] Describe props.
+
+ANSWER 4: Props, which is short for properties, is a react components argument/parameter.
+Props, unlike state, are fixed throughout the lifetime of the component.
+
 
 ## Project Set Up
 

@@ -4,7 +4,7 @@ import Character from './Character';
 import './StarWars.css'
 
 const CharacterList = props => {
-return <div> {props.starwarsChars.map((character)=>{
+return <div className = "character-container"> {props.starwarsChars.map((character)=>{
     return (
         <Character
         character = {character}

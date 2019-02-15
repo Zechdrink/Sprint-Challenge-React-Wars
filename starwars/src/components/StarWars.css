@@ -12,3 +12,8 @@
     color: white;
     text-shadow: 225px 0 1px blue, 225px 0 15px yellow, 225px 0 25px white !important;
   }
+
+  .character-container {
+      border: 5px solid black;
+      box-shadow: 0 0 750px black inset;
+  }

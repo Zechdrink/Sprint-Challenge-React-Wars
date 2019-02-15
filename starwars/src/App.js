@@ -24,9 +24,9 @@ class App extends Component {
       .then(data => {
         this.setState({ starwarsChars: data.results });
       })
-      .catch(err => {
-        throw new Error(err);
-      });
+      // .catch(err => {
+      //   throw new Error(err);
+      // });
   };
 
   render() {

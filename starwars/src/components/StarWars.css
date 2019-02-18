@@ -1,0 +1,29 @@
+li {
+    padding: 15px;
+    padding-left: 50px;
+    border: 1px solid black;
+    margin: 0;
+    margin-left: 50px;
+    font-size: 24px;
+    transition: 750ms ease;
+  }
+  
+  li:hover {
+    background: rgb(49, 48, 48);
+    color: white;
+    text-shadow: 0px 0 5px blue, 0px 0 20px yellow, 0px 0 30px green !important;
+  }
+
+  .character-container {
+      border: 5px solid black;
+      box-shadow: 0 0 750px black inset;
+  }
+
+  .hair-style {
+      text-decoration: underline;
+      color: rgb(36, 34, 25);
+  }
+
+  span:hover {
+      color: red;
+  }

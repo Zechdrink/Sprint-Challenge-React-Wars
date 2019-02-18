@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 
+import CharacterList from './components/CharacterList.js'
+
 class App extends Component {
   constructor() {
     super();
@@ -10,7 +12,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    this.getCharacters('https://swapi.co/api/people');
+    this.getCharacters('https://swapi.co/api/people/');
   }
 
   getCharacters = URL => {
@@ -33,6 +35,8 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
+        <ol><CharacterList starwarsChars = {this.state.starwarsChars}/></ol>
+        <h1>Who will win? You decide on the next episode of React Wars</h1>
       </div>
     );
   }

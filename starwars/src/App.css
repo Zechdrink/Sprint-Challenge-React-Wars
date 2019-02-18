@@ -1,8 +1,34 @@
 .App {
+  max-width: 800px;
+  margin: 0 auto;
+  border: 5px solid black;
+  margin-top: 10px;
+  box-shadow: 75px 50px 50px black;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
   text-align: center;
+  background: rgb(49, 48, 48);
+  color: white !important;
+  transition: 750ms ease;
 }
-.Header {
-  color: #443e3e;
-  text-shadow: 1px 1px 5px #fff;
+
+h1:hover {
+  background: transparent;
+  color: black !important;
 }
+
+
+ol {
+  padding: 0;
+  margin: 0;
+  background: white;
+}
+
+ol:active {
+  background: transparent;
+}
+
 /* write your parent styles in here for your App.js */
